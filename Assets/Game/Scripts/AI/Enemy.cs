@@ -26,18 +26,14 @@ public class Enemy : MonoBehaviour
     public bool playerInVisionRadius;
     public bool playerInShootingRadius;
 
-    [Header("Enemy Shooting Var")]
-    public float giveDamageOf = 3f;
-    public float shootingRange = 100f;
-    public GameObject ShootingRaycastArea;
-    public float timebetweenShooting;
-    bool previouslyShoot;
-
     [Header("Character Controller and Gravity")]
     public CharacterController characterController;
     public float gravity = 9.81f;
     private Vector3 velocity;
     public bool isAlerted = false;
+
+    public GameObject warningImage;
+    public GameObject alertImage;
 
     void Start()
     {
@@ -51,6 +47,18 @@ public class Enemy : MonoBehaviour
     {
         playerInVisionRadius = Physics.CheckSphere(transform.position, visionRadius, playerLayer);
         playerInShootingRadius = Physics.CheckSphere(transform.position, shootingRadius, playerLayer);
+
+
+        if (playerInVisionRadius)
+        {
+            warningImage.SetActive(true);
+            alertImage.SetActive(false);
+        }
+        else
+        {
+            warningImage.SetActive(false);
+        }
+
 
         if (!isAlerted)
         {
@@ -69,6 +77,8 @@ public class Enemy : MonoBehaviour
         
         if (isAlerted)
         {
+            warningImage.SetActive(false);
+            alertImage.SetActive(true);
             visionRadius = 155f;
         }
     }
@@ -144,5 +154,8 @@ public class Enemy : MonoBehaviour
         animator.SetBool("Die", true);
 
         this.enabled = false;
+
+        warningImage.SetActive(false);
+        alertImage.SetActive(false);
     }
 }
