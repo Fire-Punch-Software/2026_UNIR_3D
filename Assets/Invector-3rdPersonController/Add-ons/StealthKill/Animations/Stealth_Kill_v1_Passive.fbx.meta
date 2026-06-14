@@ -1,0 +1,847 @@
+fileFormatVersion: 2
+guid: 181ff45e790932f489c8c4763206b62b
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: pasted__group1
+  - first:
+      1: 100002
+    second: pasted__Head
+  - first:
+      1: 100004
+    second: pasted__HeadTop_End
+  - first:
+      1: 100006
+    second: pasted__Hips
+  - first:
+      1: 100008
+    second: pasted__LeftArm
+  - first:
+      1: 100010
+    second: pasted__LeftFoot
+  - first:
+      1: 100012
+    second: pasted__LeftForeArm
+  - first:
+      1: 100014
+    second: pasted__LeftHand
+  - first:
+      1: 100016
+    second: pasted__LeftHandIndex1
+  - first:
+      1: 100018
+    second: pasted__LeftHandIndex2
+  - first:
+      1: 100020
+    second: pasted__LeftHandIndex3
+  - first:
+      1: 100022
+    second: pasted__LeftHandIndex4
+  - first:
+      1: 100024
+    second: pasted__LeftHandMiddle1
+  - first:
+      1: 100026
+    second: pasted__LeftHandMiddle2
+  - first:
+      1: 100028
+    second: pasted__LeftHandMiddle3
+  - first:
+      1: 100030
+    second: pasted__LeftHandMiddle4
+  - first:
+      1: 100032
+    second: pasted__LeftHandPinky1
+  - first:
+      1: 100034
+    second: pasted__LeftHandPinky2
+  - first:
+      1: 100036
+    second: pasted__LeftHandPinky3
+  - first:
+      1: 100038
+    second: pasted__LeftHandPinky4
+  - first:
+      1: 100040
+    second: pasted__LeftHandRing1
+  - first:
+      1: 100042
+    second: pasted__LeftHandRing2
+  - first:
+      1: 100044
+    second: pasted__LeftHandRing3
+  - first:
+      1: 100046
+    second: pasted__LeftHandRing4
+  - first:
+      1: 100048
+    second: pasted__LeftHandThumb1
+  - first:
+      1: 100050
+    second: pasted__LeftHandThumb2
+  - first:
+      1: 100052
+    second: pasted__LeftHandThumb3
+  - first:
+      1: 100054
+    second: pasted__LeftHandThumb4
+  - first:
+      1: 100056
+    second: pasted__LeftLeg
+  - first:
+      1: 100058
+    second: pasted__LeftShoulder
+  - first:
+      1: 100060
+    second: pasted__LeftToe_End
+  - first:
+      1: 100062
+    second: pasted__LeftToeBase
+  - first:
+      1: 100064
+    second: pasted__LeftUpLeg
+  - first:
+      1: 100066
+    second: pasted__Neck
+  - first:
+      1: 100068
+    second: pasted__RightArm
+  - first:
+      1: 100070
+    second: pasted__RightFoot
+  - first:
+      1: 100072
+    second: pasted__RightForeArm
+  - first:
+      1: 100074
+    second: pasted__RightHand
+  - first:
+      1: 100076
+    second: pasted__RightHandIndex1
+  - first:
+      1: 100078
+    second: pasted__RightHandIndex2
+  - first:
+      1: 100080
+    second: pasted__RightHandIndex3
+  - first:
+      1: 100082
+    second: pasted__RightHandIndex4
+  - first:
+      1: 100084
+    second: pasted__RightHandMiddle1
+  - first:
+      1: 100086
+    second: pasted__RightHandMiddle2
+  - first:
+      1: 100088
+    second: pasted__RightHandMiddle3
+  - first:
+      1: 100090
+    second: pasted__RightHandMiddle4
+  - first:
+      1: 100092
+    second: pasted__RightHandPinky1
+  - first:
+      1: 100094
+    second: pasted__RightHandPinky2
+  - first:
+      1: 100096
+    second: pasted__RightHandPinky3
+  - first:
+      1: 100098
+    second: pasted__RightHandPinky4
+  - first:
+      1: 100100
+    second: pasted__RightHandRing1
+  - first:
+      1: 100102
+    second: pasted__RightHandRing2
+  - first:
+      1: 100104
+    second: pasted__RightHandRing3
+  - first:
+      1: 100106
+    second: pasted__RightHandRing4
+  - first:
+      1: 100108
+    second: pasted__RightHandThumb1
+  - first:
+      1: 100110
+    second: pasted__RightHandThumb2
+  - first:
+      1: 100112
+    second: pasted__RightHandThumb3
+  - first:
+      1: 100114
+    second: pasted__RightHandThumb4
+  - first:
+      1: 100116
+    second: pasted__RightLeg
+  - first:
+      1: 100118
+    second: pasted__RightShoulder
+  - first:
+      1: 100120
+    second: pasted__RightToe_End
+  - first:
+      1: 100122
+    second: pasted__RightToeBase
+  - first:
+      1: 100124
+    second: pasted__RightUpLeg
+  - first:
+      1: 100126
+    second: pasted__Spine
+  - first:
+      1: 100128
+    second: pasted__Spine1
+  - first:
+      1: 100130
+    second: pasted__Spine2
+  - first:
+      1: 100132
+    second: //RootNode
+  - first:
+      4: 400000
+    second: pasted__group1
+  - first:
+      4: 400002
+    second: pasted__Head
+  - first:
+      4: 400004
+    second: pasted__HeadTop_End
+  - first:
+      4: 400006
+    second: pasted__Hips
+  - first:
+      4: 400008
+    second: pasted__LeftArm
+  - first:
+      4: 400010
+    second: pasted__LeftFoot
+  - first:
+      4: 400012
+    second: pasted__LeftForeArm
+  - first:
+      4: 400014
+    second: pasted__LeftHand
+  - first:
+      4: 400016
+    second: pasted__LeftHandIndex1
+  - first:
+      4: 400018
+    second: pasted__LeftHandIndex2
+  - first:
+      4: 400020
+    second: pasted__LeftHandIndex3
+  - first:
+      4: 400022
+    second: pasted__LeftHandIndex4
+  - first:
+      4: 400024
+    second: pasted__LeftHandMiddle1
+  - first:
+      4: 400026
+    second: pasted__LeftHandMiddle2
+  - first:
+      4: 400028
+    second: pasted__LeftHandMiddle3
+  - first:
+      4: 400030
+    second: pasted__LeftHandMiddle4
+  - first:
+      4: 400032
+    second: pasted__LeftHandPinky1
+  - first:
+      4: 400034
+    second: pasted__LeftHandPinky2
+  - first:
+      4: 400036
+    second: pasted__LeftHandPinky3
+  - first:
+      4: 400038
+    second: pasted__LeftHandPinky4
+  - first:
+      4: 400040
+    second: pasted__LeftHandRing1
+  - first:
+      4: 400042
+    second: pasted__LeftHandRing2
+  - first:
+      4: 400044
+    second: pasted__LeftHandRing3
+  - first:
+      4: 400046
+    second: pasted__LeftHandRing4
+  - first:
+      4: 400048
+    second: pasted__LeftHandThumb1
+  - first:
+      4: 400050
+    second: pasted__LeftHandThumb2
+  - first:
+      4: 400052
+    second: pasted__LeftHandThumb3
+  - first:
+      4: 400054
+    second: pasted__LeftHandThumb4
+  - first:
+      4: 400056
+    second: pasted__LeftLeg
+  - first:
+      4: 400058
+    second: pasted__LeftShoulder
+  - first:
+      4: 400060
+    second: pasted__LeftToe_End
+  - first:
+      4: 400062
+    second: pasted__LeftToeBase
+  - first:
+      4: 400064
+    second: pasted__LeftUpLeg
+  - first:
+      4: 400066
+    second: pasted__Neck
+  - first:
+      4: 400068
+    second: pasted__RightArm
+  - first:
+      4: 400070
+    second: pasted__RightFoot
+  - first:
+      4: 400072
+    second: pasted__RightForeArm
+  - first:
+      4: 400074
+    second: pasted__RightHand
+  - first:
+      4: 400076
+    second: pasted__RightHandIndex1
+  - first:
+      4: 400078
+    second: pasted__RightHandIndex2
+  - first:
+      4: 400080
+    second: pasted__RightHandIndex3
+  - first:
+      4: 400082
+    second: pasted__RightHandIndex4
+  - first:
+      4: 400084
+    second: pasted__RightHandMiddle1
+  - first:
+      4: 400086
+    second: pasted__RightHandMiddle2
+  - first:
+      4: 400088
+    second: pasted__RightHandMiddle3
+  - first:
+      4: 400090
+    second: pasted__RightHandMiddle4
+  - first:
+      4: 400092
+    second: pasted__RightHandPinky1
+  - first:
+      4: 400094
+    second: pasted__RightHandPinky2
+  - first:
+      4: 400096
+    second: pasted__RightHandPinky3
+  - first:
+      4: 400098
+    second: pasted__RightHandPinky4
+  - first:
+      4: 400100
+    second: pasted__RightHandRing1
+  - first:
+      4: 400102
+    second: pasted__RightHandRing2
+  - first:
+      4: 400104
+    second: pasted__RightHandRing3
+  - first:
+      4: 400106
+    second: pasted__RightHandRing4
+  - first:
+      4: 400108
+    second: pasted__RightHandThumb1
+  - first:
+      4: 400110
+    second: pasted__RightHandThumb2
+  - first:
+      4: 400112
+    second: pasted__RightHandThumb3
+  - first:
+      4: 400114
+    second: pasted__RightHandThumb4
+  - first:
+      4: 400116
+    second: pasted__RightLeg
+  - first:
+      4: 400118
+    second: pasted__RightShoulder
+  - first:
+      4: 400120
+    second: pasted__RightToe_End
+  - first:
+      4: 400122
+    second: pasted__RightToeBase
+  - first:
+      4: 400124
+    second: pasted__RightUpLeg
+  - first:
+      4: 400126
+    second: pasted__Spine
+  - first:
+      4: 400128
+    second: pasted__Spine1
+  - first:
+      4: 400130
+    second: pasted__Spine2
+  - first:
+      4: 400132
+    second: //RootNode
+  - first:
+      74: 7400000
+    second: T-Pose
+  - first:
+      74: 7400002
+    second: Stealth_Kill_Passive
+  - first:
+      95: 9500000
+    second: //RootNode
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    rigImportErrors: "Copied Avatar Rig Configuration mis-match. Transform hierarchy
+      does not match:\n\tTransform 'mixamorig:Hips' for human bone 'Hips' not found\n"
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: T-Pose
+      takeName: T-Pose
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 2
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__group1
+        weight: 1
+      - path: pasted__group1/pasted__Hips
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg/pasted__LeftFoot
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg/pasted__LeftFoot/pasted__LeftToeBase
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg/pasted__LeftFoot/pasted__LeftToeBase/pasted__LeftToe_End
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg/pasted__RightFoot
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg/pasted__RightFoot/pasted__RightToeBase
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg/pasted__RightFoot/pasted__RightToeBase/pasted__RightToe_End
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1/pasted__LeftHandIndex2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1/pasted__LeftHandIndex2/pasted__LeftHandIndex3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1/pasted__LeftHandIndex2/pasted__LeftHandIndex3/pasted__LeftHandIndex4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1/pasted__LeftHandMiddle2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1/pasted__LeftHandMiddle2/pasted__LeftHandMiddle3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1/pasted__LeftHandMiddle2/pasted__LeftHandMiddle3/pasted__LeftHandMiddle4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1/pasted__LeftHandPinky2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1/pasted__LeftHandPinky2/pasted__LeftHandPinky3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1/pasted__LeftHandPinky2/pasted__LeftHandPinky3/pasted__LeftHandPinky4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1/pasted__LeftHandRing2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1/pasted__LeftHandRing2/pasted__LeftHandRing3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1/pasted__LeftHandRing2/pasted__LeftHandRing3/pasted__LeftHandRing4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1/pasted__LeftHandThumb2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1/pasted__LeftHandThumb2/pasted__LeftHandThumb3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1/pasted__LeftHandThumb2/pasted__LeftHandThumb3/pasted__LeftHandThumb4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__Neck
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__Neck/pasted__Head
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__Neck/pasted__Head/pasted__HeadTop_End
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1/pasted__RightHandIndex2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1/pasted__RightHandIndex2/pasted__RightHandIndex3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1/pasted__RightHandIndex2/pasted__RightHandIndex3/pasted__RightHandIndex4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1/pasted__RightHandMiddle2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1/pasted__RightHandMiddle2/pasted__RightHandMiddle3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1/pasted__RightHandMiddle2/pasted__RightHandMiddle3/pasted__RightHandMiddle4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1/pasted__RightHandPinky2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1/pasted__RightHandPinky2/pasted__RightHandPinky3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1/pasted__RightHandPinky2/pasted__RightHandPinky3/pasted__RightHandPinky4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1/pasted__RightHandRing2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1/pasted__RightHandRing2/pasted__RightHandRing3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1/pasted__RightHandRing2/pasted__RightHandRing3/pasted__RightHandRing4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1/pasted__RightHandThumb2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1/pasted__RightHandThumb2/pasted__RightHandThumb3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1/pasted__RightHandThumb2/pasted__RightHandThumb3/pasted__RightHandThumb4
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Stealth_Kill_Passive
+      takeName: Stealth_Kill_Passive
+      internalID: 0
+      firstFrame: 4
+      lastFrame: 82
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 0
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 1
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: pasted__group1
+        weight: 1
+      - path: pasted__group1/pasted__Hips
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg/pasted__LeftFoot
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg/pasted__LeftFoot/pasted__LeftToeBase
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__LeftUpLeg/pasted__LeftLeg/pasted__LeftFoot/pasted__LeftToeBase/pasted__LeftToe_End
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg/pasted__RightFoot
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg/pasted__RightFoot/pasted__RightToeBase
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__RightUpLeg/pasted__RightLeg/pasted__RightFoot/pasted__RightToeBase/pasted__RightToe_End
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1/pasted__LeftHandIndex2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1/pasted__LeftHandIndex2/pasted__LeftHandIndex3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandIndex1/pasted__LeftHandIndex2/pasted__LeftHandIndex3/pasted__LeftHandIndex4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1/pasted__LeftHandMiddle2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1/pasted__LeftHandMiddle2/pasted__LeftHandMiddle3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandMiddle1/pasted__LeftHandMiddle2/pasted__LeftHandMiddle3/pasted__LeftHandMiddle4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1/pasted__LeftHandPinky2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1/pasted__LeftHandPinky2/pasted__LeftHandPinky3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandPinky1/pasted__LeftHandPinky2/pasted__LeftHandPinky3/pasted__LeftHandPinky4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1/pasted__LeftHandRing2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1/pasted__LeftHandRing2/pasted__LeftHandRing3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandRing1/pasted__LeftHandRing2/pasted__LeftHandRing3/pasted__LeftHandRing4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1/pasted__LeftHandThumb2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1/pasted__LeftHandThumb2/pasted__LeftHandThumb3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__LeftShoulder/pasted__LeftArm/pasted__LeftForeArm/pasted__LeftHand/pasted__LeftHandThumb1/pasted__LeftHandThumb2/pasted__LeftHandThumb3/pasted__LeftHandThumb4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__Neck
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__Neck/pasted__Head
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__Neck/pasted__Head/pasted__HeadTop_End
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1/pasted__RightHandIndex2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1/pasted__RightHandIndex2/pasted__RightHandIndex3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandIndex1/pasted__RightHandIndex2/pasted__RightHandIndex3/pasted__RightHandIndex4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1/pasted__RightHandMiddle2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1/pasted__RightHandMiddle2/pasted__RightHandMiddle3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandMiddle1/pasted__RightHandMiddle2/pasted__RightHandMiddle3/pasted__RightHandMiddle4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1/pasted__RightHandPinky2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1/pasted__RightHandPinky2/pasted__RightHandPinky3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandPinky1/pasted__RightHandPinky2/pasted__RightHandPinky3/pasted__RightHandPinky4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1/pasted__RightHandRing2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1/pasted__RightHandRing2/pasted__RightHandRing3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandRing1/pasted__RightHandRing2/pasted__RightHandRing3/pasted__RightHandRing4
+        weight: 0
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1/pasted__RightHandThumb2
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1/pasted__RightHandThumb2/pasted__RightHandThumb3
+        weight: 1
+      - path: pasted__group1/pasted__Hips/pasted__Spine/pasted__Spine1/pasted__Spine2/pasted__RightShoulder/pasted__RightArm/pasted__RightForeArm/pasted__RightHand/pasted__RightHandThumb1/pasted__RightHandThumb2/pasted__RightHandThumb3/pasted__RightHandThumb4
+        weight: 0
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
