@@ -22,9 +22,9 @@ public class Enemy : MonoBehaviour
     GameObject playerBody;
     public LayerMask playerLayer;
     public float visionRadius;
-    public float shootingRadius;
+    public float chasingRadius;
     public bool playerInVisionRadius;
-    public bool playerInShootingRadius;
+    public bool playerInChasingRadius;
 
     [Header("Character Controller and Gravity")]
     public CharacterController characterController;
@@ -34,6 +34,7 @@ public class Enemy : MonoBehaviour
 
     public GameObject warningImage;
     public GameObject alertImage;
+    private bool blinded = false;
 
     void Start()
     {
@@ -45,41 +46,38 @@ public class Enemy : MonoBehaviour
 
     void Update()
     {
-        playerInVisionRadius = Physics.CheckSphere(transform.position, visionRadius, playerLayer);
-        playerInShootingRadius = Physics.CheckSphere(transform.position, shootingRadius, playerLayer);
+        if (!blinded)
+        {
+            playerInVisionRadius = Physics.CheckSphere(transform.position, visionRadius, playerLayer);
+            playerInChasingRadius = Physics.CheckSphere(transform.position, chasingRadius, playerLayer);
 
+            if (playerInVisionRadius)
+            {
+                warningImage.SetActive(true);
+                alertImage.SetActive(false);
+            }
 
-        if (playerInVisionRadius)
-        {
-            warningImage.SetActive(true);
-            alertImage.SetActive(false);
-        }
-        else
-        {
-            warningImage.SetActive(false);
-        }
+            if (!isAlerted)
+            {
+                Patrol();
+            }
 
+            if (isAlerted && playerInChasingRadius && playerInVisionRadius)
+            {
+                ChasePlayer();
+            }
 
-        if (!isAlerted)
-        {
-            Patrol();
-        }
-        
-        if (isAlerted && playerInVisionRadius && !playerInShootingRadius)
-        {
-            ChasePlayer();
-        }
+            if (isAlerted)
+            {
+                warningImage.SetActive(false);
+                alertImage.SetActive(true);
 
-        /*if (isAlerted && playerInShootingRadius && playerInVisionRadius)
-        {
-            CharacterDie();
-        }*/
-        
-        if (isAlerted)
-        {
-            warningImage.SetActive(false);
-            alertImage.SetActive(true);
-            visionRadius = 155f;
+                if (!playerInVisionRadius)
+                {
+                    isAlerted = false;
+                    alertImage.SetActive(false);
+                }
+            }
         }
     }
 
@@ -157,5 +155,36 @@ public class Enemy : MonoBehaviour
 
         warningImage.SetActive(false);
         alertImage.SetActive(false);
+    }
+
+    void OnCollisionEnter(Collision collision)
+    {
+        if (!blinded)
+        {
+            GameObject collidedObject = collision.gameObject;
+
+            if (collidedObject.CompareTag("Player"))
+            {
+                blinded = true;
+                warningImage.SetActive(false);
+                alertImage.SetActive(false);
+
+                animator.SetBool("Run", false);
+                animator.SetBool("Walk", false);
+                animator.SetBool("Die", false);
+
+                animator.SetTrigger("Kill");
+                collidedObject.GetComponent<AnimatorManager>().Die();
+
+                GameManager gameManager = FindObjectOfType<GameManager>();
+                if (gameManager != null)
+                {
+                    gameManager.GameOver();
+                }
+
+                this.enabled = false;
+
+            }
+        }
     }
 }

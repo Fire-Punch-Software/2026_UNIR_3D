@@ -81,4 +81,11 @@ public class AnimatorManager : MonoBehaviour
         animator.SetFloat(horizontal, snappedHorizontal, 0.1f, Time.deltaTime);
         animator.SetFloat(vertical, snappedVertical, 0.1f, Time.deltaTime);
     }
+
+    public void Die()
+    {
+        // Handle player death logic here
+        Debug.Log("Player has died.");
+        animator.SetTrigger("Dead");
+    }
 }
