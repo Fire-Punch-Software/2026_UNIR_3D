@@ -176,6 +176,7 @@ public class Enemy : MonoBehaviour
                 animator.SetTrigger("Kill");
                 collidedObject.GetComponent<AnimatorManager>().Die();
 
+                
                 GameManager gameManager = FindObjectOfType<GameManager>();
                 if (gameManager != null)
                 {

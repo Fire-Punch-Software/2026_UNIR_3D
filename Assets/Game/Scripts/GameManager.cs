@@ -50,7 +50,24 @@ public class GameManager : MonoBehaviour
 
     public void GameOver()
     {
-        Debug.Log("Game Over");
-        // Aquí puedes agregar la lógica para mostrar la pantalla de Game Over o reiniciar el nivel
+        StartCoroutine(LoadGameOverWithDelay());
     }
+
+    IEnumerator LoadGameOverWithDelay()
+    {
+        yield return new WaitForSeconds(2f);
+        SceneManager.LoadScene(1);
+    }
+
+    public void Goal()
+    {
+        StartCoroutine(LoadGoalWithDelay());
+    }
+
+    IEnumerator LoadGoalWithDelay()
+    {
+        yield return new WaitForSeconds(1f);
+        SceneManager.LoadScene(2);
+    }
+
 }
